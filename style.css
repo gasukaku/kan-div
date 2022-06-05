@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap");
+@charset "utf-8";
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background-color: none;
+  color: ;
+  resize: none;
+  transition: 300ms;
+  text-decoration: none;
+  -webkit-appearance: none;
+  appearance: none;
+  
+ text-align: center;
+}
+/*aタグ色の変更*/
+a {
+  color: royalblue;
+}
+a:hover {
+  color: springgreen;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+html { scroll-behavior: smooth;}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+html { scroll-behavior: smooth;}
+.logo {
+  color: black;
+  font-size: 3rem;
+  padding: 10% 0;
+  color:white;
+}
+.cnt {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#read {
+  cursor: pointer;
+}
+details {
+  margin-left: 15px; 
+}
+.blog_box {
+  border: solid;
+  margin:10px 10% 0 10%;
+  border-radius: 10px;
+}
+
+}
+#header {
+background-color:coral none;
+width:100%;
+height:4em;
+text-align:center;
+position:sticky;
+top:0;
+}
+#top{
+background-color:blue;
+
+color:white;
+}
+#topfont {
+font-size:5em;
+padding-top:3em;}
+#topsc {
+padding-top:5em;
+font-size:30px;
+}
+#topsp {
+padding-top:7em;
+}
+#pagesp {
+padding-top:10;
+}
